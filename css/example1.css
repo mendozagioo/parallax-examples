@@ -1,0 +1,29 @@
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+/* Example 1 */
+.parallax1 {
+  width: 960px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  border: 5px solid #efb233;
+}
+
+.parallax1 img {
+  position: absolute;
+}
+
+.parallax1 img:nth-child(1) { width: 978px; height: 325px; }
+.parallax1 img:nth-child(2) { width: 987px; height: 328px; }
+.parallax1 img:nth-child(3) { width: 1001px; height: 333px; }
+.parallax1 img:nth-child(4) { width: 1031px; height: 343px; }
+.parallax1 img:nth-child(5) { width: 1067px; height: 355px; }
+.parallax1 img:nth-child(6) { width: 1120px; height: 373px; }
+.parallax1 img:nth-child(7) { width: 1200px; height: 400px; }
+
+/* Example 2 */

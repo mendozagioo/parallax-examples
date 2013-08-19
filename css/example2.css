@@ -1,0 +1,61 @@
+/* css/example2.css */
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+#im1, #im2, #im3 {
+  width: 100%;
+  height: 600px;
+  color: #000;
+}
+
+#im2 {
+  height: 1300px;
+}
+
+#im3 {
+  height: 750px;
+}
+
+#im1 {
+  background: url(../img/example2/imag1.jpg) 50% 0 no-repeat fixed;
+}
+
+#im2 {
+  background: url(../img/example2/imag2.jpg) 50% 60px no-repeat fixed;
+}
+
+#im3 {
+  background: url(../img/example2/imag3.jpg) 50% 205px no-repeat fixed;
+}
+
+.one, .two, .three {
+  width: 980px;
+  margin: auto;
+}
+
+.left {
+  width: 350px;
+  float: left;
+  padding: 150px 0 20px 0;
+}
+
+nav {
+  position: fixed;
+  right: 20px;
+  width: 20px;
+  height: 100px;
+  margin-top: 30px;
+}
+
+nav a {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  margin-bottom: 10px;
+  text-indent: -99999px;
+  display: inline-block;
+  border-radius: 50%;
+}

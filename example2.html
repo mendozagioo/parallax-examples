@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Example2</title>
+    <link rel="stylesheet" href="css/example2.css" type="text/css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#im1">Link 1</a>
+      <a href="#im2">Link 2</a>
+      <a href="#im3">link 3</a>
+    </nav>
+    <div id="im1">
+      <div class="one">
+        <div class="left">
+          <h2>(Almost) Static Background</h2>
+            <p>
+              This section has a background that moves slightly slower than the user scrolls. This is achieved by changing the top position of the background for every pixel the page is scrolled.
+            </p>
+        </div>
+      </div>
+    </div>
+    <div id="im2">
+      <div class="two">
+        <div class="left">
+          <h2>Multiple backgrounds</h2>
+            <p>
+              This section has a background that moves slightly slower than the user scrolls. This is achieved by changing the top position of the background for every pixel the page is scrolled.
+            </p>
+        </div>
+      </div>
+    </div>
+    <div id="im3">
+      <div class="three">
+        <div class="left">
+          <h2>Multiple backgrounds</h2>
+            <p>
+              This section has a background that moves slightly slower than the user scrolls. This is achieved by changing the top position of the background for every pixel the page is scrolled.
+            </p>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/parallax-scroll.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/local-scroll.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/scroll-to.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function() {
+        $('nav').localScroll(800);
+        $('#im1').parallax('50%', '0.1');
+        $('#im2').parallax('50%', '0.1');
+        $('#im3').parallax('50%', '0.3');
+      });
+    </script>
+  </body>
+</html>
