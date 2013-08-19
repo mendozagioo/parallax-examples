@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Parallax examples</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/example1.css" />
   </head>
   <body>
     <div class="container">
@@ -20,6 +20,13 @@
     </div>
     <script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="js/parallax.js"></script>
-    <script type="text/javascript" charset="utf-8" src="js/examples.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function() {
+        // Declare parallax on layers
+        $('.parallax-layer').parallax({
+          mouseport: $(".parallax1")
+        });
+      });
+    </script>
   </body>
 </html>
